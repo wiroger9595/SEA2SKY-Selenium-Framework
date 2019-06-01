@@ -5,9 +5,10 @@
     <classes>
       <class name="ca.process.data.createAndRunData">
         <methods>
-          <include name="teardown"/>
-          <include name="setUpTest"/>
-          <include name="test1"/>
+          <include name="setUpBeforeAutomationTest"/>
+          <include name="testModifyCourse" invocation-numbers="0 1 2"/>
+          <include name="DeleteModifyCourse" invocation-numbers="0 1 2"/>
+          <include name="initialization"/>
         </methods>
       </class> <!-- ca.process.data.createAndRunData -->
     </classes>
